@@ -9,3 +9,9 @@ if flip == 1: #if heads
         print(f"Great job! It was {choice} you got it right!")
     elif choice == "tails":
         print(f"You got it wrong! It's not {choice}.")
+elif flip == 0: #if tails
+    print("It was tails!")
+    if choice == "tails":
+        print(f"Great job! It was {choice} you got it right!")
+    elif choice == "heads":
+        print(f"You got it wrong! It's not {choice}.")
