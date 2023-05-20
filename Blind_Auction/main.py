@@ -2,10 +2,9 @@ import os
 import art
 print(art.logo)
 
-place_holder = "NA"
 person = {}
-
 another_person = True
+
 while another_person:
     name = input("Enter your name: ")
     bid_price = int(input("Enter bid price: "))
