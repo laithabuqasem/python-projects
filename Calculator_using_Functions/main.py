@@ -20,3 +20,10 @@ def multiply(n1, n2):
 def divide(n1, n2):
     """Divides the two given values: n1, n2 and returns the value"""
     return n1 / n2
+
+operations = {
+    "+": add,
+    "-": subtract,
+    "*": multiply,
+    "/": divide
+}
